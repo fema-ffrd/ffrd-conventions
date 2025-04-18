@@ -5,7 +5,7 @@
     "description": "This schema defines the naming conventions for various elements in the flood risk model.",
     "type": "object",
     "properties": {
-        "project_file_name": {
+        "project_title": {
             "type": "string",
             "description": "Project name",
             "pattern": "^[a-z0-9-]+(_\\d+)?$",
@@ -17,7 +17,7 @@
                 "rock-river_2"
             ]
         },
-        "basin_file_name": {
+        "basin_title": {
             "type": "string",
             "description": "Basin file name",
             "pattern": "^[a-z0-9-]+_[a-z]{3}\\d{4}$",
@@ -28,7 +28,7 @@
                 "trinity_por"
             ]
         },
-        "met_file_name": {
+        "met_title": {
             "type": "string",
             "description": "Met file name",
             "pattern": "^[a-z0-9-]+$",
@@ -40,7 +40,7 @@
                 "sst"
             ]
         },
-        "control_file_name": {
+        "control_title": {
             "type": "string",
             "description": "Control file name",
             "pattern": "^[a-z0-9-]+$",
@@ -52,20 +52,9 @@
                 "sst"
             ]
         },
-        "reference_line": {
+        "run_title": {
             "type": "string",
-            "description": "Observed Data Gage",
-            "pattern": "^gage_[a-z]+_\\d{7,10}_[^_]+(_[a-z0-9-]+)?$",
-            "max_underscore_count": 4,
-            "min_underscore_count": 3,
-            "examples": [
-                "gage_noaa_8594900_1hr_washington-dc ",
-                "gage_usgs_12105900_15min"
-            ]
-        },
-        "run_file_name": {
-            "type": "string",
-            "description": "",
+            "description": "Run file name",
             "pattern": "^[a-z0-9-]+$",
             "max_underscore_count": 0,
             "min_underscore_count": 0,
