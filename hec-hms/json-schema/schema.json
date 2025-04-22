@@ -20,7 +20,7 @@
         "basin_title": {
             "type": "string",
             "description": "Basin file name",
-            "pattern": "^[a-z0-9-]+_[a-z]{3}\\d{4}$",
+            "pattern": "^[a-z0-9-]+_[a-z0-9-]+$",
             "max_underscore_count": 1,
             "min_underscore_count": 0,
             "examples": [
