@@ -1,7 +1,7 @@
 # ffrd-conventions
-Naming conventions and standards for FFRD pilots
+Naming conventions and standards for FFRD pilots.
 
-Draft conventions under development:
+**Current Convention Status:**
 
 [HEC-RAS](hec-ras/readme.md)
 
