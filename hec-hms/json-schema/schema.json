@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "Naming Convention Schema for HEC-HMS model files, names, elements",
-    "version": "1.0.0",
+    "version": "0.2.0",
     "description": "This schema defines the naming conventions for various elements in the flood risk model.",
     "type": "object",
     "properties": {
