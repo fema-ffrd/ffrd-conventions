@@ -3,7 +3,7 @@
 
     schema version: 1.0.0
 
-    Description: Naming Convention Schema for HEC-RAS model files, names, elements
+    Description: This schema defines the naming conventions for various elements in the flood risk model.
 
 
 | Property                     | Type   | Description                                                             | Pattern                                                                                        | Examples                                                                                                                                                                                                         |
