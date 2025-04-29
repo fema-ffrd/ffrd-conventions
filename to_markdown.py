@@ -5,9 +5,9 @@ import json
 import pandas as pd
 
 
-def props_to_header(schema_props: dict) -> str:
+def props_to_header(schema_props: dict, model: str = "HEC-RAS") -> str:
     """Export schema top level props to doc."""
-    return f"""# HEC-RAS Naming Conventions
+    return f"""# {model} Naming Conventions
     Draft {schema_props['title']}\n
     schema version: {schema_props['version']}\n
     Description: {schema_props['title']}\n
